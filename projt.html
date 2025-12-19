@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <style>
+   body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: pink; 
+  font-family: sans-serif;
+}
+
+.conteiner {
+  background-color: white;
+  padding: 30px;
+  /* Aumentei a largura aqui */
+  width: 500px; 
+  border-radius: 20px;
+  border: 3px solid hotpink;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: mediumvioletred;
+  text-align: center;
+  font-size: 28px; /* Título um pouco maior para acompanhar */
+}
+
+span, label {
+  color: deeppink;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  margin-top: 15px;
+}
+
+input[type="text"], 
+input[type="email"], 
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid pink;
+  border-radius: 8px;
+  box-sizing: border-box; /* Isso ajuda a não passar da borda */
+}
+
+/* Ajuste para o Nome e Sobrenome ficarem alinhados na mesma linha */
+.caixaNs {
+  width: 49% !important;
+  display: inline-block;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+  accent-color: hotpink;
+}
+
+.form-check {
+  margin-top: 8px;
+}
+   
+    </style>
+</head>
+<body>
+<form action="proj.html"></form>
+<div class="conteiner">
+  <h1> Invocaçâo do Mal </h1>
+
+<div class="input-group">
+    <div>
+     <span class="input-group-text">Nome e Sobrenome</span>
+    </div>
+  <input type="text" aria-label="First name" placeholder="nome" class="caixaNs">
+  <input type="text" aria-label="Last name" placeholder="sobrenome" class="caixaNs">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-adon1">Idade</span></div>
+  <div>
+  <input type="text" class="form-control" placeholder="sua idade" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+
+  <div class="row mb-3"> 
+        <label class="visually-hidden" for="inlineFormSelectPref">Você ja assistiu algum filme</label>
+          <div>
+             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios11" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+        Sim
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios22" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Nâo
+      </div>
+  </div>
+
+ <div class="mb-3">
+    <div>
+        <label for="exampleInputEmail1" class="form-label">E-mail</label>
+    </div>
+    <input type="email" pa class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+   <div class="col-12">
+    <label class="visually-hidden" for="inlineFormSelectPref">Qual é seu preferido</label>
+    <select class="form-select" id="inlineFormSelectPref">
+      <option selected>filmes</option>
+      <option value="2">SobreNatural</option>
+      <option value="3">Annabelle</option>
+      <option value="4">A Freira</option>
+    </select>
+  </div>
+
+
+  <div class="row mb-3"> 
+        <label class="visually-hidden" for="inlineFormSelectPref">Qual você ja assistiu:</label>
+          <div>
+             <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+        A Freira
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Annabelle 2
+        </div>
+          <div>
+             <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+        A Freira 2
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Annabelle
+        </div>
+        <div>
+             <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+        Invocação do Mal
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios6" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Annabelle 3
+        </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios7" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        A Maldição da Chorona
+        </div>
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios8" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Invocação do Mal 2
+        </div>
+         <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios9" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Invocação do Mal 3
+        </div>
+         <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios10" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+        Invocação do Mal 4
+        </div>
+  </div>
+            <button type="submit" class="salvar ">Salvar</button>
+            <button type="button" class="cancelar ">Cancelar</button>
+  </div>
+
+</form>
+</body>
+</html>
